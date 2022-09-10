@@ -1,0 +1,152 @@
+body {
+  background-color: #e0e0e0;
+  color: #343;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+  width: 92%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-sizing: border-box;
+  text-align: center;
+}
+button{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #45a049;
+}
+details ul {
+  list-style-type: none;
+}
+details {
+  border-radius: 22px;
+  padding: 20px;
+  margin: 40px;
+  background: #e0e0e0;
+  box-shadow: 9px 9px 18px #bebebe, -9px -9px 18px #ffffff;
+}
+details summary:hover{
+  color: #222;
+  cursor: pointer;
+}
+th, td {
+  border: 1px solid #eee;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  border-radius: 12px;
+  margin: 5px;
+  box-shadow: 9px 9px 18px #bebebe;
+}
+table {
+  width: 95%;
+}
+td:hover {
+  background: #bbb; color: #fff;
+}
+.div_table{
+  width: 95%;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.input_convertidor_l {
+  width: 15%;
+  display:inline;
+  border-radius: 12px 0px 0px 12px;
+}
+.input_convertidor_r {
+  width: 15%;
+  display:inline;
+  border-radius: 0px 12px 12px 0px;
+}
+.button_convertidor {
+  width: 20%;
+  display:inline;
+  border-radius: 0px;
+}
+
+.input_call {
+  width: 10%;
+}
+.button_call {
+  width: 10%;
+  margin-left: 10px;
+}
+
+.login {
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+.login input {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: .5%;
+  height: 40px;
+}
+.login button {
+  width: 50%;
+}
+.login p{
+  display: block;
+}
+
+.rep{
+  text-align: center;
+}
+.rep input{
+  width: 12%;
+  border-radius: 12px 0px 0px 12px;
+}
+.rep button{
+  width: 10%;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.salarios {
+  text-align: center;
+  align-items: center;
+}
+.salarios button{
+  width: 95%;
+  margin-top: 5%;
+}
+.salarios .rep input {
+  width: 20em;
+}
+.salarios .rep button{
+  width: 20em;
+}
+
+.num_ramd {
+  width: 10%;
+}
+.num_ramd_btn{
+  width: 47%;
+  margin-right: 2%; 
+}
+._11_input{
+  width: 58%;
+}
+._11_nota{
+  width: 12%;
+  margin: 5px;
+}
+
+body p {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+}
