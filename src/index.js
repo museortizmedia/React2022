@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
+//taller
+import { Taller01 } from './Taller01';
+
 //chalenges
 import FirstApp from './Challenges/M1E1';
 import AdvancedCounter from './Challenges/M2E1';
@@ -36,9 +39,14 @@ import './CONTENIDO/Reducer/intro-reducer'
 
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/*
+    <Taller01/>
+    */}
+
     <h2>Challenges</h2>
     {/*<FirstApp/>
     <AdvancedCounter/> <AdvancedCounter value={10}/>
