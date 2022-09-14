@@ -3,40 +3,37 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 //taller
-import { Taller01 } from './Taller01';
+//import { Taller01 } from './Taller01';
 
 //chalenges
-import FirstApp from './Challenges/M1E1';
+/*import FirstApp from './Challenges/M1E1';
 import AdvancedCounter from './Challenges/M2E1';
 import CreateItemArray from './Challenges/M2E2';
 import M2E3 from './Challenges/M2E3/M2E3';
 import UseFetch from './Challenges/M2E4/M2E4';
 import M2E5 from './Challenges/M2E5';
-import Father from './Challenges/M2E6/M2E6';
+import Father from './Challenges/M2E6/M2E6';*/
 
 //modulo 1: repaso
-import Variables from './CONTENIDO/ModuloUno/variables/variables';
-import CopyMode from './CONTENIDO/ModuloUno/tiposDeCopiados/copyObject';
-import TiposFunciones from './CONTENIDO/ModuloUno/tiposDeFunciones/TiposFunction'
-import Promesas from './CONTENIDO/ModuloUno/Promesas/promesas';
+import Variables from './CONTENIDO/variables/variables';
+import CopyMode from './CONTENIDO/tiposDeCopiados/copyObject';
+import TiposFunciones from './CONTENIDO/tiposDeFunciones/TiposFunction'
+import Promesas from './CONTENIDO/Promesas/promesas';
 import Tenarios from './CONTENIDO/ChequeosTenarios/Tenary';
 
 //modulo 2: react basico
 import VarComponent from './CONTENIDO/varComp';
 import PropComponent from './CONTENIDO/propsComp';
 import FuncComponent from './CONTENIDO/functComp';
-import UseStateHook from './Hooks/UseState';
+import UseStateHook from './CONTENIDO/Hooks/UseState';
 import PrintLArray from './CONTENIDO/printArray';
 import AdvancedCategory from './CONTENIDO/comunChildParent/AdvancedCategory';
-import UseEffectHook from './Hooks/UseEffect';
+import UseEffectHook from './CONTENIDO/Hooks/UseEffect';
 import AdvancedCounterHooked from './CONTENIDO/CustomHook/AdvancedCounterHooked';
-import {FocusScreen} from './Hooks/UseRef';
-import FuncionMemo from './Hooks/UseMemo/Memo';
-import HookUseMemo from './Hooks/UseMemo/UseMemo';
+import {FocusScreen} from './CONTENIDO/Hooks/UseRef';
+import FuncionMemo from './CONTENIDO/Hooks/UseMemo/Memo';
+import HookUseMemo from './CONTENIDO/Hooks/UseMemo/UseMemo';
 import './CONTENIDO/Reducer/intro-reducer'
-
-
-
 
 
 
