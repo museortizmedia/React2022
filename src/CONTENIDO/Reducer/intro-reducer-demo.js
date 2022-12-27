@@ -1,4 +1,4 @@
-const initialState=[{
+/*const initialState=[{
     id: 1,
     todo: 'Hacer los challenges',
     done: false
@@ -27,4 +27,4 @@ const addTodoAction = {
 }
 
 todos = todoReducer(todos, addTodoAction)
-console.log(todos);
+console.log(todos);*/

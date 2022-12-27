@@ -33,7 +33,8 @@ import AdvancedCounterHooked from './CONTENIDO/CustomHook/AdvancedCounterHooked'
 import {FocusScreen} from './CONTENIDO/Hooks/UseRef';
 import FuncionMemo from './CONTENIDO/Hooks/UseMemo/Memo';
 import HookUseMemo from './CONTENIDO/Hooks/UseMemo/UseMemo';
-import './CONTENIDO/Reducer/intro-reducer'
+import './CONTENIDO/Reducer/intro-reducer-demo'
+import { ReducerApp } from './CONTENIDO/Reducer/ReducerCorrectMode/comp_reducer';
 
 
 
@@ -41,11 +42,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/*
+    <h2>Talleres</h2>
     <Taller01/>
     */}
 
-    <h2>Challenges</h2>
-    {/*<FirstApp/>
+    {/*<h2>Challenges</h2>
+    <FirstApp/>
     <AdvancedCounter/> <AdvancedCounter value={10}/>
     <CreateItemArray/>
     <M2E3 category="pokemon"/>
@@ -55,18 +57,17 @@ root.render(
     
     <Father/> NO TERMINADO */}
     
-    <hr/>
+    {/*<hr/>
     <h2>Modulo Uno - Basic JS</h2>
-    {/* ** MODULO UNO: Repaso - ESTUDIO ** */}
     {/*<Variables/>
     <CopyMode/>
     <TiposFunciones/>
     <Promesas/>
     <Tenarios/>*/}
-    <hr/>
+    
+    {/*<hr/>
     <h2>Modulo Dos - Basic React</h2>
-    {/* ** MODULO DOS: React inicio - ESTUDIO ** */}
-    {/*<VarComponent/>
+    <VarComponent/>
     <PropComponent/>
     <PropComponent title="Mi titulo desde Props" sum={5}/>.
     <FuncComponent title="Mi titulo desde Props" sum={5}/>
@@ -79,6 +80,8 @@ root.render(
     <FuncionMemo/>
     NO TERMNADO CALLBACK
     <HookUseMemo/>*/}
+    <ReducerApp/>
+    
     
   </React.StrictMode>
 );
